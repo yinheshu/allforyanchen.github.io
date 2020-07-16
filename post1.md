@@ -13,6 +13,6 @@ Warning: None
 
 [chapter 1~10](./post1C1-10.html).
 
-[chapter 11~20](./post1C11-20.html).
+[chapter 11~20](./_posts/post1C11-20.html).
 
 [back](./)
