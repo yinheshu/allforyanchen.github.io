@@ -1,5 +1,8 @@
 ---
 layout: post
+title: 【完结】中毒Part2
+author: 银河树
+tag: level2 银河树 中毒
 ---
 
 ###Chapter 11-20
