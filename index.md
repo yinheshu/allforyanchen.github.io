@@ -8,3 +8,11 @@ layout: default
     </li>
   {% endfor %}
 </ul>
+
+<ul>
+  {% if post.title contains '【' %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endif %}
+</ul>
