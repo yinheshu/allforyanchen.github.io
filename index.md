@@ -1,5 +1,6 @@
 ---
 layout: default
 ---
-this is a test message
-[Link to another page](./another-page.html).
+2020-07-16
+
+[Article 1](./another-page.html).
