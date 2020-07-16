@@ -4,7 +4,7 @@ layout: default
 
 <ul>
   {% for post in site.posts %}
-    {% if tag contains 'level1' %}
+    {% if post.title contains '【' %}
       <li>
         <a href="{{ post.url }}">{{ post.title }}</a>
       </li>
