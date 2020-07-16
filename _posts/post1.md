@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 ---
 
 ## 【完结】中毒
