@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 中毒Part3
+title: [完结]中毒
 author: 银河树
 ---
 
