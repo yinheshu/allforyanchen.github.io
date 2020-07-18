@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 【完结】溯游 Chapter 6 薰儿篇 Part 2
+title: 【连载】溯游 Chapter 6 薰儿篇 Part 2
 author: 一条尾巴演一把
 ---
 
