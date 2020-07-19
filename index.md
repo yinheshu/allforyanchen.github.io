@@ -1,8 +1,8 @@
 ---
 layout: default
 ---
-[测试界面1](https://allforyanchen.github.io/test-page-1.html)
-[测试界面2](https://allforyanchen.github.io/test-page-2.html)
+[测试界面1](https://allforyanchen.github.io/testfolder1/)
+[测试界面2](https://allforyanchen.github.io/testfolder2/)
 
 <ul>
   {% for post in site.posts %}
