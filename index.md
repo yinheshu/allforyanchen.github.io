@@ -4,7 +4,8 @@ layout: default
 # All For YANCHEN
 # 炎尘粮仓
 
-
+[炎尘粮仓发布指南](https://allforyanchen.github.io/postinstruction.html)
+<br>
 ## 银河树
 <ul>
   {% for post in site.posts %}
