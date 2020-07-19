@@ -55,6 +55,16 @@ layout: default
     {% endif %}
   {% endfor %}
 </ul>
+## pantie
+<ul>
+  {% for post in site.posts %}
+    {% if post.title contains 'by pantie' %}
+      <li>
+        <a href="{{ post.url }}">{{ post.title }}</a>
+      </li>
+    {% endif %}
+  {% endfor %}
+</ul>
 ## 三月酱酱
 <ul>
   {% for post in site.posts %}
