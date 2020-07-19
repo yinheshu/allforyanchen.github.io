@@ -22,7 +22,7 @@ layout: default
   {% endfor %}
 </ul>
 ## 一条尾巴演一把
-ul>
+<ul>
   {% for post in site.posts %}
     {% if post.title contains 'by 一条尾巴演一把' %}
       <li>
