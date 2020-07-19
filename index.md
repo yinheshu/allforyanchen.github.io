@@ -25,6 +25,16 @@ layout: default
     {% endif %}
   {% endfor %}
 </ul>
+## 何事东风
+<ul>
+  {% for post in site.posts %}
+    {% if post.title contains 'by 何事东风' %}
+      <li>
+        <a href="{{ post.url }}">{{ post.title }}</a>
+      </li>
+    {% endif %}
+  {% endfor %}
+</ul>
 ## 一条尾巴演一把
 <ul>
   {% for post in site.posts %}
@@ -59,6 +69,16 @@ layout: default
 <ul>
   {% for post in site.posts %}
     {% if post.title contains 'by pantie' %}
+      <li>
+        <a href="{{ post.url }}">{{ post.title }}</a>
+      </li>
+    {% endif %}
+  {% endfor %}
+</ul>
+## Bokyo
+<ul>
+  {% for post in site.posts %}
+    {% if post.title contains 'by Bokyo' %}
       <li>
         <a href="{{ post.url }}">{{ post.title }}</a>
       </li>
