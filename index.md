@@ -95,3 +95,23 @@ layout: default
     {% endif %}
   {% endfor %}
 </ul>
+## 安惜
+<ul>
+  {% for post in site.posts %}
+    {% if post.title contains 'by 安惜' %}
+      <li>
+        <a href="{{ post.url }}">{{ post.title }}</a>
+      </li>
+    {% endif %}
+  {% endfor %}
+</ul>
+## erten
+<ul>
+  {% for post in site.posts %}
+    {% if post.title contains 'by erten' %}
+      <li>
+        <a href="{{ post.url }}">{{ post.title }}</a>
+      </li>
+    {% endif %}
+  {% endfor %}
+</ul>
