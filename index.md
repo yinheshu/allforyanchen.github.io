@@ -116,3 +116,13 @@ layout: default
     {% endif %}
   {% endfor %}
 </ul>
+## 西元楚杨
+<ul>
+  {% for post in site.posts %}
+    {% if post.title contains 'by 西元楚杨' %}
+      <li>
+        <a href="{{ post.url }}">{{ post.title }}</a>
+      </li>
+    {% endif %}
+  {% endfor %}
+</ul>
