@@ -6,10 +6,44 @@ layout: default
 
 [炎尘粮仓发布指南](https://allforyanchen.github.io/postinstruction.html)
 <br>
-## 银河树
+# A
+## 安惜
 <ul>
   {% for post in site.posts %}
-    {% if post.title contains 'by 银河树' %}
+    {% if post.title contains 'by 安惜' %}
+      <li>
+        <a href="{{ post.url }}">{{ post.title }}</a>
+      </li>
+    {% endif %}
+  {% endfor %}
+</ul>
+# B
+## Bokyo
+<ul>
+  {% for post in site.posts %}
+    {% if post.title contains 'by Bokyo' %}
+      <li>
+        <a href="{{ post.url }}">{{ post.title }}</a>
+      </li>
+    {% endif %}
+  {% endfor %}
+</ul>
+# E
+## erten
+<ul>
+  {% for post in site.posts %}
+    {% if post.title contains 'by erten' %}
+      <li>
+        <a href="{{ post.url }}">{{ post.title }}</a>
+      </li>
+    {% endif %}
+  {% endfor %}
+</ul>
+# H
+## 何事东风
+<ul>
+  {% for post in site.posts %}
+    {% if post.title contains 'by 何事东风' %}
       <li>
         <a href="{{ post.url }}">{{ post.title }}</a>
       </li>
@@ -26,46 +60,7 @@ layout: default
     {% endif %}
   {% endfor %}
 </ul>
-## 何事东风
-<ul>
-  {% for post in site.posts %}
-    {% if post.title contains 'by 何事东风' %}
-      <li>
-        <a href="{{ post.url }}">{{ post.title }}</a>
-      </li>
-    {% endif %}
-  {% endfor %}
-</ul>
-## 一条尾巴演一把
-<ul>
-  {% for post in site.posts %}
-    {% if post.title contains 'by 一条尾巴演一把' %}
-      <li>
-        <a href="{{ post.url }}">{{ post.title }}</a>
-      </li>
-    {% endif %}
-  {% endfor %}
-</ul>
-## 我见诸君多有病，料诸君见我应如是
-<ul>
-  {% for post in site.posts %}
-    {% if post.title contains 'by 我见诸君多有病' %}
-      <li>
-        <a href="{{ post.url }}">{{ post.title }}</a>
-      </li>
-    {% endif %}
-  {% endfor %}
-</ul>
-## 三山归来客
-<ul>
-  {% for post in site.posts %}
-    {% if post.title contains 'by 三山归来客' %}
-      <li>
-        <a href="{{ post.url }}">{{ post.title }}</a>
-      </li>
-    {% endif %}
-  {% endfor %}
-</ul>
+# P
 ## pantie
 <ul>
   {% for post in site.posts %}
@@ -76,10 +71,11 @@ layout: default
     {% endif %}
   {% endfor %}
 </ul>
-## Bokyo
+# S
+## 三山归来客
 <ul>
   {% for post in site.posts %}
-    {% if post.title contains 'by Bokyo' %}
+    {% if post.title contains 'by 三山归来客' %}
       <li>
         <a href="{{ post.url }}">{{ post.title }}</a>
       </li>
@@ -96,30 +92,53 @@ layout: default
     {% endif %}
   {% endfor %}
 </ul>
-## 安惜
+## 十二木是二
 <ul>
   {% for post in site.posts %}
-    {% if post.title contains 'by 安惜' %}
+    {% if post.title contains 'by 十二木是二' %}
       <li>
         <a href="{{ post.url }}">{{ post.title }}</a>
       </li>
     {% endif %}
   {% endfor %}
 </ul>
-## erten
+# W
+## 我见诸君多有病，料诸君见我应如是
 <ul>
   {% for post in site.posts %}
-    {% if post.title contains 'by erten' %}
+    {% if post.title contains 'by 我见诸君多有病' %}
       <li>
         <a href="{{ post.url }}">{{ post.title }}</a>
       </li>
     {% endif %}
   {% endfor %}
 </ul>
+# X
 ## 西元楚杨
 <ul>
   {% for post in site.posts %}
     {% if post.title contains 'by 西元楚杨' %}
+      <li>
+        <a href="{{ post.url }}">{{ post.title }}</a>
+      </li>
+    {% endif %}
+  {% endfor %}
+</ul>
+# Y
+## 银河树
+<ul>
+  {% for post in site.posts %}
+    {% if post.title contains 'by 银河树' %}
+      <li>
+        <a href="{{ post.url }}">{{ post.title }}</a>
+      </li>
+    {% endif %}
+  {% endfor %}
+</ul>
+## 一条尾巴演一把
+<ul>
+  {% for post in site.posts %}
+    {% if post.title contains 'by 一条尾巴演一把' %}
       <li>
         <a href="{{ post.url }}">{{ post.title }}</a>
       </li>
